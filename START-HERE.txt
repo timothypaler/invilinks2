@@ -1,0 +1,31 @@
+INVILINKS — WEBSITE SOURCE CODE
+
+Includes the complete current website, images, fonts and local scripts.
+Source revision: 7a2ea7658a27f35346b9d11e88bbcc28ef4706df
+
+READY TO HOST
+Publish the contents of dist/ as your static website. It includes the homepage,
+pricing, how-it-works and photo credits pages. There is no build step.
+Local preview: run python3 -m http.server 8000 --directory dist
+then open http://localhost:8000 in your browser.
+
+EDITING
+Shared page content: scripts/build-pages.py
+Styles: dist/experience.css
+Menus, previews and inquiry form: dist/app.js
+Scrolling: dist/experience.js
+Page-loading animation: dist/transitions.js
+After editing content, CSS or JavaScript, run python3 scripts/build-pages.py
+from this extracted folder to regenerate pages and asset fingerprints.
+
+LATEST CHANGES
+- Official Facebook and Instagram links in ordering and footer.
+- Inquire / inquiry spelling throughout.
+- Vertical scrolling restored inside the horizontal design collection.
+- Pricing cards match homepage colors and artwork.
+- Packages differ by graphics, interactions and animation scope.
+  Themes and opening styles can be adapted across all packages.
+
+RSVP methods and music in the inquiry form prepare a local message only.
+This showcase does not send messages or store client RSVP responses.
+Keep the bundled font/vendor licenses and photography credits.
